@@ -10,27 +10,78 @@
 <body>
     <header>
         <img src="images/logo.jpg" alt="" width="100">
-        <h1>Бухгалтерский баланс</h1>
+        <h1 class="header__title">Бухгалтерский баланс</h1>
         <nav>
             <ul>
-                <li><a href="#">Аккаунт</a> </li>
-                <li><a href="#">Информация</a> </li>
-                <li><a href="#">Бух. баланс</a> </li>
-                <li><a href="#">Верт.анализ</a> </li>
-                <li><a href="#">Гор.анализ</a> </li>
-                <li><a href="#">Контактная информация</a>  </li>
+                <li class="header_item"><a class="header_item-link" href="#">Аккаунт</a> </li>
+                <li class="header_item"><a class="header_item-link" href="#">Информация</a> </li>
+                <li class="header_item"><a class="header_item-link" href="#">Бух. баланс</a> </li>
+                <li class="header_item"><a class="header_item-link" href="#">Верт.анализ</a> </li>
+                <li class="header_item"><a class="header_item-link" href="#">Гор.анализ</a> </li>
+                <li class="header_item"><a class="header_item-link" href="#">Контактная информация</a>  </li>
             </ul>
         </nav>
-        <a href="#">Вход/Регистрация</a>
+        <a class="header_login-text" href="#">Вход/Регистрация</a>
     </header>
-    <main>
-        <div>
-            <h2>Информация о бухгалтерском балансе</h2>
-            <img src="images/images1.jpg" alt="">
+    <main class="main">
+        <section class="section promo">
+            <h2 class="promo_title section_title">Информация о бухгалтерском балансе</h2>
+            <img class="promo images" src="images/images1.jpg" alt="">
             <p>Бухгалтерский баланс — это основной отчёт организации, который раскрывает её экономическое состояние. Он состоит из двух частей: актив и пассив. Вертикальный анализ, или структурный анализ, показывает долю каждого элемента хозяйственной жизни предприятия в его общей структуре. Показатели рассчитываются в процентах относительно того же показателя в предыдущем периоде. Этот анализ позволяет выявить изменения в задолженности, основных средствах и их амортизации Горизонтальный анализ, или трендовый анализ, отслеживает изменения в натуральных величинах и позволяет понять, как меняются статьи и показатели хозяйственной деятельности фирмы во времени.</p>
-        </div>
+        </section>
+        <section>
+            <h2>Возможности</h2>
+            <li><a href="#">Составление бухгалтерского баланса</a> </li>
+            <li><a href="#">Проведение вертикального анализа</a> </li>
+            <li><a href="#">Проведение горизонтального анализа</a> </li>
+        </section>
+        <section>
+            <h2>Сосредоточтесь на экономии своего времени</h2>
+            <p>Мы помогаем вам в изучении и составлении бухгалтерского баланса, проведении вертикального и горизонтального анализов. Этот сайт облегчит ваше обучение и сохранит побольше нервных клеток.</p>
+            <img src="images/woman.jpg" alt="" width="300">
+        </section>
     </main>
     <footer>
+        <!--/ Форма "Войдите в профиль" -->
+        <!-- Форма "Регистрация" -->
+        <section class="popup">
+            <h2 class="popup__title">Регистрация</h2>
+            <form class="popup__form form" action="/" method="post">
+                <input class="form__field" type="text" name="name" placeholder="Имя" required>
+                <input class="form__field" type="email" name="email" placeholder="Логин" required>
+                <fieldset class="form__fieldset">
+                    <div class="form__field-block">
+                        <input class="form__field" type="password" name="password" placeholder="Пароль" required>
+                        <span>Минимум 8 символов</span>
+                    </div>
+                    <input class="form__field" type="password" name="repeat-password" placeholder="Повторите пароль"
+                        required>
+                </fieldset>
+                <fieldset class="form__buttons">
+                    <button class="button button--accent" type="submit">Зарегистрироваться</button>
+                    <button class="button" type="button">Отмена</button>
+                </fieldset>
+                <button class="button button--link" type="button">У меня уже есть аккаунт</button>
+            </form>
+        </section>
+        <!--/ Форма "Регистрация" -->
+        <!-- Форма "Войти" -->
+        <section class="section popup">
+            <h2 class="popup__title">Войти</h2>
+            <form class="popup__form form" action="/" method="post">
+                <input class="form__field" type="email" name="email" placeholder="Логин" required>
+                <input class="form__field" type="password" name="password" placeholder="Пароль" required>
+                <fieldset class="form__buttons">
+                    <button class="button button--accent" type="submit">Войти</button>
+                    <button class="button" type="button">Отмена</button>
+                </fieldset>
+                <button class="button button--link" type="button">У меня еще нет аккаунта</button>
+            </form>
+        </section>
+        <!--/ Форма "Войти" -->
+    </div>
+    <!--/ Формы -->
+</body>
         <p>Соколова Наталия, Симонова Ирина, Овечкина Полина ЭК-21</p>
     </footer>
 
