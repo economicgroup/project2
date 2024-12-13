@@ -5,19 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Бухгалтерский баланс</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
     <header>
         <img src="images/logo.jpg" alt="" width="100">
-        <h1 class="header__title">Бухгалтерский баланс</h1>
+        <h1 class="header__title" href="index.html">Бухгалтерский баланс</h1>
         <nav>
             <ul>
                 <li class="header_item"><a class="header_item-link" href="#">Аккаунт</a> </li>
-                <li class="header_item"><a class="header_item-link" href="#">Информация</a> </li>
-                <li class="header_item"><a class="header_item-link" href="#">Бух. баланс</a> </li>
-                <li class="header_item"><a class="header_item-link" href="#">Верт.анализ</a> </li>
-                <li class="header_item"><a class="header_item-link" href="#">Гор.анализ</a> </li>
+                <li class="header_item"><a class="header_item-link" href="information.html">Информация</a> </li>
+                <li class="header_item"><a class="header_item-link" href="balance_sheet.html">Бух. баланс</a> </li>
+                <li class="header_item"><a class="header_item-link" href="vertical_analysis.html">Верт.анализ</a> </li>
+                <li class="header_item"><a class="header_item-link" href="horizontal_analysis.html">Гор.анализ</a> </li>
                 <li class="header_item"><a class="header_item-link" href="#">Контактная информация</a>  </li>
             </ul>
         </nav>
@@ -27,18 +29,24 @@
         <section class="section promo">
             <h2 class="promo_title section_title">Информация о бухгалтерском балансе</h2>
             <img class="promo images" src="images/images1.jpg" alt="">
-            <p>Бухгалтерский баланс — это основной отчёт организации, который раскрывает её экономическое состояние. Он состоит из двух частей: актив и пассив. Вертикальный анализ, или структурный анализ, показывает долю каждого элемента хозяйственной жизни предприятия в его общей структуре. Показатели рассчитываются в процентах относительно того же показателя в предыдущем периоде. Этот анализ позволяет выявить изменения в задолженности, основных средствах и их амортизации Горизонтальный анализ, или трендовый анализ, отслеживает изменения в натуральных величинах и позволяет понять, как меняются статьи и показатели хозяйственной деятельности фирмы во времени.</p>
+            <p class="section_discription">Бухгалтерский баланс — это основной отчёт организации, который раскрывает её экономическое состояние. Он состоит из двух частей: актив и пассив. Вертикальный анализ, или структурный анализ, показывает долю каждого элемента хозяйственной жизни предприятия в его общей структуре. Показатели рассчитываются в процентах относительно того же показателя в предыдущем периоде. Этот анализ позволяет выявить изменения в задолженности, основных средствах и их амортизации Горизонтальный анализ, или трендовый анализ, отслеживает изменения в натуральных величинах и позволяет понять, как меняются статьи и показатели хозяйственной деятельности фирмы во времени.</p>
         </section>
-        <section>
-            <h2>Возможности</h2>
-            <li><a href="#">Составление бухгалтерского баланса</a> </li>
-            <li><a href="#">Проведение вертикального анализа</a> </li>
-            <li><a href="#">Проведение горизонтального анализа</a> </li>
+        <section class="section card">
+            <h2 class="section_title">Возможности</h2>
+            <li class="card_item">
+                <img class="card_icon" src="images/BB.png" alt="Картинка бухгалтерского баланса" width="100" height="100">
+                <a class="possibilities_item-link" href="balance_sheet.html">Составление бухгалтерского баланса</a> </li>
+            <li class="card_item">
+                <img class="card_icon" src="images/VA.jpg" alt="Картинка вертикальный анализ" width="100" height="100">
+                <a class="possibilities_item-link" href="vertical_analysis.html">Проведение вертикального анализа</a> </li>
+            <li class="card_item">
+                <img class="card_icon" src="images/GA.jpg" alt="Картинка горизонтального анализа" width="100" height="100">
+                <a class="possibilities_item-link" href="horizontal_analysis.html">Проведение горизонтального анализа</a> </li>
         </section>
-        <section>
-            <h2>Сосредоточтесь на экономии своего времени</h2>
-            <p>Мы помогаем вам в изучении и составлении бухгалтерского баланса, проведении вертикального и горизонтального анализов. Этот сайт облегчит ваше обучение и сохранит побольше нервных клеток.</p>
-            <img src="images/woman.jpg" alt="" width="300">
+        <section class="section savings">
+            <h2 class="section_title">Сосредоточтесь на экономии своего времени</h2>
+            <p class="section_discription">Мы помогаем вам в изучении и составлении бухгалтерского баланса, проведении вертикального и горизонтального анализов. Этот сайт облегчит ваше обучение и сохранит побольше нервных клеток.</p>
+            <img class="savings_icon" src="images/woman.jpg" alt="" width="300">
         </section>
     </main>
     <footer>
