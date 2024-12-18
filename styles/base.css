@@ -5,11 +5,11 @@ box-sizing: border-box;
 }
 html,
 body {
-font-family: 'PlayfairDisplay-SemiBold', sans-serif;
+font-family: 'Cruinn', sans-serif;
 font-size: 18px;
 line-height: 30px;
-color: #0a0a0a;
-background-color: #ffffff;
+color: #043d10;
+background-color: #fdfdfd;
 overflow-x: hidden;
 }
 img {
